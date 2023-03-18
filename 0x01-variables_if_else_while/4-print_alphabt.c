@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Return: Always 0 (success)
- */
+ * */
 int main(void)
 {
 int lowercase = 'a';
@@ -14,7 +14,7 @@ if (lowercase == 'e' || lowercase == 'q')
 {
 lowercase += 1;
 }
-else 
+else
 {
 putchar(lowercase);
 lowercase += 1;
