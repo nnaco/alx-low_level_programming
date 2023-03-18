@@ -2,7 +2,7 @@
 /**
  * main - prints all possible combinations of single-digit numbers.
  *
- * Retun: 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int i = '0';
 while (i <= '9')
 {
 putchar(i);
-if (i !='9')
+if (i ! ='9')
 {
 putchar(',');
 putchar(' ');
