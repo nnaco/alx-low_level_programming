@@ -7,11 +7,9 @@
  */
 int main(void)
 {
-int a = 0;
-while (a<10)
-{
-printf("a is: %d\n", a);
-a =a+1;
-}
+int n;
+for (n = 0; n < 10; n++)
+printf("%d", n);
+printf("\n");
 return (0);
 }
