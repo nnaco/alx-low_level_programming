@@ -1,1 +1,1 @@
-read me for c debugging
+read me for debugging
