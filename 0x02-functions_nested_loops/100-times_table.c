@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
  * print_times_table - Prints the times table of the input,starting with 0
  * @n: The value of times table to be prepared
  */
-void print_times_tablw(int n)
+void print_times_table(int n)
 {
 int num,mult, prod;
 if (n >= 0 && n <= 15)
