@@ -2,7 +2,9 @@
 
 /**
  * Entry - fill a block of memory with a specific value
- *
+ * @s: starting address
+ * @b: the value
+ * @n: number of bytes changed
  *
  * Return: changed array with new value for n bytes
  */
