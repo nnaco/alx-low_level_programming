@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strpbrk - Locates the first occurence in the string s
- * @s - input
- * @accept - input
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
  *
  * Return: Always 0 (Success)
  */
