@@ -15,5 +15,5 @@ for(; n > 0; a++)
 s[a] = b;
 n--;
 }
-return(s);
+return (s);
 }
