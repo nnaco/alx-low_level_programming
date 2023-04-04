@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _memset - Entry point
+ * *_memset -  fills memory with a constant byte
  * @s: starting address
- * @b: the value
- * @n: number of bytes changed
+ * @b: the value to copy
+ * @n: number of times to copy b
  *
  * Return: changed array with new value for n bytes
  */
