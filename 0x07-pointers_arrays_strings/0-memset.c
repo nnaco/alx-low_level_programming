@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _memset - Entry point
  * @s: starting address
@@ -8,7 +7,6 @@
  *
  * Return: changed array with new value for n bytes
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 int a = 0;
