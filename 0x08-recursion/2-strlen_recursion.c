@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * _strlen_inclusion - prints the full length of a string.
+ * _strlen_recursion - prints the full length of a string.
  * @s: string's length to be measured
  *
- * Return: lengthof the string
+ * Return: length of the string
  */
 int _strlen_recursion(char *s)
 {
 	int length = 0;
-	if (*s)
 
+	if (*s)
 	{
 		length++;
 	length += _strlen_recursion(s + 1);
