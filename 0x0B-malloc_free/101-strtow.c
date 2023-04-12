@@ -56,7 +56,7 @@ if (r)
 {
 end = i;
 
-y = (char *) malloc(sizeof(char) * (c + 1));
+y = (char **) malloc(sizeof(char) * (c + 1));
 if (y == NULL)
 return (NULL);
 while (start < end)
