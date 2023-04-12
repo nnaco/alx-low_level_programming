@@ -35,6 +35,7 @@ return (a);
  */
 
 char **strtow(char *str)
+
 {
 char **x, *y;
 int i, c = 0, len = 0, words, r = 0, start, end;
@@ -47,12 +48,14 @@ x = (char **) malloc(sizeof(char *) * (words + 1));
 if (x == NULL)
 return (NULL);
 for (i = 0; i <= len; i++)
+
 {
 if (str[i] == ' ' || str[i] == '\0')
 {
 if (r)
 {
 end = i;
+
 y = (char *) malloc(sizeof(char) * (c + 1));
 if (y == NULL)
 return (NULL);
@@ -66,7 +69,9 @@ r = 0;
 }
 else if (r++ == 0)
 start = i;
+
 }
 x[c] = NULL;
 return (x);
+
 }
