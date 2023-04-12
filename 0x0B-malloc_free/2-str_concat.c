@@ -20,7 +20,7 @@ while (s1[i] != '\0')
 i++;
 while (s2[r] != '\0')
 r++;
-conct = malloc(sizeof (char) * (i + r + 1));
+conct = malloc(sizeof(char) * (i + r + 1));
 if (conct == NULL)
 return (NULL);
 i = r = 0;
