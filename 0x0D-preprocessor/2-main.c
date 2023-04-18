@@ -2,7 +2,7 @@
 
 /**
   * main - prints the name of the file of the program
-  * 
+  *
   * Return: Always 0 (success).
   */
 int main(void)
